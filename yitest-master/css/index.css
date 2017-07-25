@@ -1,0 +1,601 @@
+/*
+* @Author: vincnet
+* @Date:   2016-08-08 18:30:44
+* @Last Modified by:   vincnet
+* @Last Modified time: 2016-08-24 21:02:28
+*/
+
+
+/* logo的导航部分完成 */
+
+.nav {
+    margin-top: 40px;
+    padding: 30px 0 30px 0;
+    height: 110px;
+    line-height: 50px;
+}
+
+.nav > .container > .row > .col-md-2 {
+    position: relative;
+}
+
+.nav > .container > .row > .col-md-4 {
+    position: relative;
+    padding-left: 50px;
+}
+
+.nav > .container > .row > .col-md-4 > .hehe {
+    width: 90px;
+    height: 40px;
+    position: relative;
+}
+
+.nav > .container > .row > .col-md-4 > .hehe > .beijing {
+    display: block;
+    width: 90px;
+    height: 40px;
+    font-size: 18px;
+    color: rgb(199, 22, 28);
+    position: relative;
+    float: left;
+    cursor: pointer;
+}
+
+.nav > .container > .row > .col-md-4 > .hehe > .beijing:hover {
+    text-decoration: none;
+}
+
+.nav > .container > .row > .col-md-4 > .hehe > a > .area {
+    display: inline-block;
+    width: 18px;
+    height: 13px;
+    position: absolute;
+    left: 70px;
+    top: 20px;
+    background: url(../images/icon.png) -285px -30px no-repeat;
+}
+
+.nav > .container > .row > .col-md-4 > .hehe > .city {
+    width: 100px;
+    position: absolute;
+    top: 37px;
+    left: -15px;
+    z-index: 1999;
+    display: none;
+}
+
+.nav > .container > .row > .col-md-4 > .hehe > .city > li:first-child >.rowone {
+    display: inline-block;
+    width: 18px;
+    height: 15px;
+    background: url(../images/icon.png) -289px -69px no-repeat;
+    margin-top: -6px;
+}
+
+.nav > .container > .row > .col-md-4> .hehe > .city > li:first-child {
+    height: 25px;
+    padding-top: 2px;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid #ededed;
+    background-color: transparent;
+}
+
+.nav > .container > .row > .col-md-4 > .hehe > .city > li {
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    position: relative;
+    border: 1px solid #ededed;
+    border-bottom: none;
+    background-color: #fff;
+}
+
+.nav > .container > .row > .col-md-4 > .hehe > .city > li:nth-child(2) {
+    border-top: none;
+}
+
+.nav > .container > .row > .col-md-4 > .hehe > .city > li:last-child {
+    border-bottom: 1px solid #ededed;
+}
+
+.nav > .container > .row > .col-md-4 > .hehe > .city > li > a {
+    font-size: 16px;
+    color: #999;
+}
+
+.nav > .container > .row > .col-md-3:last-child {
+    padding-left: 30px;
+}
+
+.nav > .container > .row > .col-md-3 > .phone {
+    position: relative;
+    padding-left: 46px;
+    font-size: 28px;
+    color: #c7161c;
+}
+
+.nav > .container > .row > .col-md-3 > .phone > i {
+    display: inline-block;
+    width: 36px;
+    height: 40px;
+    background-color: red;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: url(../images/icon.png) -316px 0px no-repeat;
+}
+
+
+/* 全部服务类导航开始 */
+
+.allService {
+    height: 40px;
+    line-height: 39px;
+    border-bottom: 3px solid #c7161c;
+    z-index: 1999;
+}
+
+
+/* 全部服务部分 */
+
+.allService > .container {
+    /* float: center; */
+}
+
+.allService > .container > .row > .col-md-12 > .menu-classify {
+    float: left;
+}
+
+
+/* 全部服务的头部 */
+
+.allService > .container > .row > .col-md-12 > .menu-classify > .menu-header {
+    width: 210px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #c7161c;
+    font-size: 18px;
+    color: #fff;
+    padding-left: 20px;
+    letter-spacing: 2px;
+}
+
+
+/* 头部以下的内容部分 */
+
+.allService > .container > .row > .col-md-12 > .menu-classify > .menu-content {
+    position: absolute;
+    top: 40px;
+    left: 15px;
+    z-index: 999;
+    /* opacity: 0.7; */
+}
+
+.allService > .container > .row > .col-md-12 > .menu-classify > .menu-content > .content-ul {}
+
+.allService > .container > .row > .col-md-12 > .menu-classify > .menu-content > .content-ul > li {
+    height: 130px;
+    width: 210px;
+    background-color: black;
+    border-bottom: 1px dashed #fff;
+    position: relative;
+    opacity: 0.7;
+}
+
+
+/* 每个li下面的具体介绍 */
+
+.allService > .container > .row > .col-md-12 > .menu-classify > .menu-content > .content-ul > li > h4 {
+    position: absolute;
+    top: 30px;
+    left: 25px;
+    height: 30px;
+    line-height: 30px;
+}
+
+
+/* li里面的小精灵图 */
+
+.allService > .container > .row > .col-md-12 > .menu-classify > .menu-content > .content-ul > li > h4 > .commerce {
+    display: inline-block;
+    margin-right: 16px;
+}
+
+
+/* 第一张精灵图 */
+
+.allService > .container > .row > .col-md-12 > .menu-classify > .menu-content > .content-ul > li:first-child > h4 > .commerce {
+    width: 23px;
+    height: 30px;
+    background: url(../images/icon.png) -290px -108px no-repeat;
+}
+
+
+/* 第二张精灵图 */
+
+.allService > .container > .row > .col-md-12 > .menu-classify > .menu-content > .content-ul > li:nth-child(2) > h4 > .commerce {
+    width: 31px;
+    height: 31px;
+    background: url(../images/icon.png) -286px -147px no-repeat;
+}
+
+
+/* 第三张精灵图 */
+
+.allService > .container > .row > .col-md-12 > .menu-classify > .menu-content > .content-ul > li:nth-child(3) > h4 > .commerce {
+    width: 29px;
+    height: 29px;
+    background: url(../images/icon.png) -288px -189px no-repeat;
+}
+
+
+/* 最后一张精灵图 */
+
+.allService > .container > .row > .col-md-12 > .menu-classify > .menu-content > .content-ul > li:nth-child(4) > h4 > .commerce {
+    width: 28px;
+    height: 28px;
+    background: url(../images/icon.png) -289px -229px no-repeat;
+}
+
+
+/* 每个li里面的内容 */
+
+.allService > .container > .row > .col-md-12 > .menu-classify > .menu-content > .content-ul > li > h4 > a {
+    font-size: 18px;
+    color: #fff;
+    vertical-align: top;
+}
+
+.allService > .container > .row > .col-md-12 > .menu-classify > .menu-content > .content-ul > li > h4 > a:hover {
+    text-decoration: none;
+}
+
+.allService > .container > .row > .col-md-12 > .menu-classify > .menu-content > .content-ul > li > p {
+    position: absolute;
+    top: 60px;
+    left: 20px;
+}
+
+.allService > .container > .row > .col-md-12 > .menu-classify > .menu-content > .content-ul > li > p > a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 10px;
+}
+
+
+/* 横向首页/注册公司等介绍 */
+
+.allService > .container > .row > .col-md-12 > .service-nav {
+    float: left;
+}
+
+.allService > .container > .row > .col-md-12 > .service-nav > .service-ul > li {
+    float: left;
+}
+
+.allService > .container > .row > .col-md-12 > .service-nav > .service-ul > li > a {
+    display: inline-block;
+    padding: 0 24px;
+    font-size: 18px;
+    color: #666;
+}
+
+.allService > .container > .row > .col-md-12 > .service-nav > .service-ul > li > a:hover {
+    text-decoration: none;
+    background-color: #c7161c;
+    color: #fff;
+}
+
+.allService > .container > .row > .col-md-12 > .service-nav > .service-ul > li:first-child {
+    margin-left: 10px;
+}
+
+
+/* 全部服务类导航结束 */
+
+
+/* 轮播图部分开始 */
+
+.carousel-inner>.item>a>img,
+.carousel-inner>.item>img,
+.img-responsive,
+.thumbnail a>img,
+.thumbnail>img {
+    height: 520px;
+    margin-top: -2px;
+}
+
+
+/* 右边箭头 */
+
+.carousel .right span {
+    position: absolute;
+    top: 223px;
+    right: 110px;
+    display: none;
+}
+
+
+/* 左边箭头 */
+
+.carousel .left span {
+    position: absolute;
+    top: 223px;
+    left: 110px;
+    display: none;
+}
+
+.carousel-indicators .active {
+    background-color: #c7161c;
+    border: 1px solid #c7161c;
+}
+
+.carousel-indicators li {
+    background-color: #fff;
+}
+
+
+/* 轮播图结束 */
+
+
+/* 行业数据部分开始 */
+
+.business-data {
+    background-color: #c7161c;
+    padding: 30px 0;
+}
+
+.business-data > .container > .row > .col-md-4 {
+    text-align: center;
+}
+
+.business-data > .container > .row > .col-md-4 > .data-bottom {
+    position: relative;
+}
+
+
+/* 数字的样式 */
+
+.business-data > .container > .row > .col-md-4 > .data-bottom > strong {
+    font-family: arial;
+    font-size: 36px;
+    color: #fff;
+    font-weight: normal;
+    /* vertical-align: baseline; */
+}
+
+
+/* 家、件、的定位 */
+
+.business-data > .container > .row > .col-md-4 > .data-bottom > span {
+    position: absolute;
+    left: 230px;
+    top: 13px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.business-data > .container > .row > .col-md-4 > p {
+    font-size: 18px;
+    color: #fff;
+}
+
+
+/* 具体每个分支业务的具体业务 */
+
+.branch-operation {
+    width: 910px;
+    height: 520px;
+    background-color: #fff;
+    margin-left: 400px;
+    position: absolute;
+    top: 0px;
+    left: -190px;
+    z-index: 3999;
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+.branch-operation > .left-operation > .topSection {
+    /* width: 600px; */
+    margin-top: 10px;
+    margin-left: 40px;
+    background-color: #fff;
+}
+
+.branch-operation > .left-operation > .topSection > dl {
+    /* margin-top: 10px; */
+    /* width: 100%; */
+    height: 65px;
+    /* padding-top: 20px; */
+}
+
+.branch-operation > .left-operation > .topSection > dl > dt {
+    float: left;
+    text-align: center;
+    display: inline-block;
+    width: 135px;
+    height: 65px;
+    /* line-height: 65px; */
+    /* margin-right: 40px; */
+    font-size: 14px;
+    padding-top: 20px;
+}
+
+.branch-operation > .left-operation > .topSection > dl > dd {
+    float: left;
+    width: 520px;
+    height: 65px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    /* padding-right: 20px; */
+    border-bottom: 1px solid #ededed;
+    /* overflow: hidden; */
+    /* border-top: 1px solid red; */
+}
+
+.branch-operation > .left-operation > .topSection > dl > dd > a {
+    text-decoration: none;
+    color: #999;
+}
+
+.branch-operation > .left-operation > .topSection > dl > dd > a:hover {
+    color: #c7161c;
+}
+
+.branch-operation > .left-operation > .topSection > dl > dd:nth-child(2) > a {
+    color: #c7161c;
+}
+
+
+/* 套餐部分开始 */
+
+
+/* 精选套餐部分 */
+
+.set-meal {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.set-meal > .container > .row > .col-md-12 > p {
+    text-align: center;
+    font-size: 26px;
+}
+
+.set-meal > .container > .row > .col-md-12 > .meal-line {
+    display: inline-block;
+    width: 400px;
+    height: 12px;
+    border-bottom: 1px solid #c7161c;
+    border-top: 1px dashed #c7161c;
+    margin-top: 20px;
+}
+
+
+/* 具体套餐部分开始 */
+
+.set-meal > .container > .row > .col-md-3 {
+    /* height: 310px; */
+    position: relative;
+    /* overflow: hidden; */
+}
+
+
+/* 原来每一个具体套餐 */
+
+.set-meal > .container > .row > .col-md-3 >.poineerin {
+    width: 260px;
+    height: 310px;
+    margin-top: 40px;
+    padding-top: 30px;
+    /* overflow: hidden; */
+    box-shadow: 0px 0px 3px 3px rgba(232, 55, 63, 0.1);
+}
+
+
+/* 背景图片部分 */
+
+.set-meal > .container > .row > .col-md-3 >.poineerin > .meal-img {
+    width: 100px;
+    height: 100px;
+    margin-left: 80px;
+    background: url(../images/tcicon.png) 0 -2px no-repeat;
+}
+
+.set-meal > .container > .row > .col-md-3 >.poineerin > .meal-content {
+    margin-top: 25px;
+    text-align: center;
+}
+
+
+/* 下面标题部分 */
+
+.set-meal > .container > .row > .col-md-3 .meal-content > h4 {
+    margin-bottom: 15px;
+}
+
+.set-meal > .container > .row > .col-md-3 .meal-content > span {
+    margin-left: 7px;
+    margin-right: 7px;
+    color: #999;
+}
+
+
+/* 价格部分 */
+
+.set-meal > .container > .row > .col-md-3 .meal-price {
+    color: #c7161c;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+
+/* 复制上部分 */
+
+.set-meal > .container > .row > .col-md-3 .poineerin1 {
+    width: 260px;
+    height: 140px;
+    position: absolute;
+    top: -100px;
+    left: 15px;
+    background-color: #c7161c;
+    /* display: none; */
+    opacity: 0;
+    transition: all 0.5s linear;
+}
+
+
+/* 上部分的图片 */
+
+.set-meal > .container > .row > .col-md-3 .poineerin1 > .meal-img {
+    width: 100px;
+    height: 100px;
+    margin-left: 80px;
+    margin-top: 30px;
+    background: url(../images/tcicon.png) 0 -2px no-repeat;
+}
+
+
+/* 复制下部分 */
+
+.set-meal > .container > .row > .col-md-3 .poineerin2 {
+    width: 260px;
+    height: 170px;
+    padding-top: 15px;
+    position: absolute;
+    top: 350px;
+    left: 15px;
+    background-color: #c7161c;
+    /* display: none; */
+    opacity: 0;
+    transition: all 0.5s linear;
+}
+
+.set-meal > .container > .row > .col-md-3 .poineerin2 > .meal-price {
+    margin-top: 10px;
+}
+
+.set-meal > .container > .row > .col-md-3 .poineerin2 > .btn-default {
+    height: 35px;
+    width: 70px;
+    /* padding-bottom: 15px; */
+    /* padding-left: 7px; */
+    margin-top: 15px;
+    background-color: #E5DBDB;
+}
+
+.set-meal > .container > .row > .col-md-3 .poineerin2 > .btn {
+    padding: 3px 7px;
+}
+
+
+/* .aone {
+	width: 260px;
+	height: 310px;
+}
+ */
